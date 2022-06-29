@@ -1,0 +1,30 @@
+.card{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    height: 40vh;
+    transition: 0.5s;
+    background-color: white;
+
+}
+
+.card:hover{
+    opacity: 0.2;
+}
+
+.card-img{
+    width: 220px;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+
+}

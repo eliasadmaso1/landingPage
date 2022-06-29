@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/features/footer/Footer';
+import ImageSlider from './components/features/imageSlider/ImageSlider';
+import Shoe from './components/pages/shoe/Shoe';
+import Shoes from './components/pages/shoes/Shoes';
+import { sliderData } from './data/slider';
+import { BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <ImageSlider slides={sliderData}/>
+        <Routes>
+        <Route exact path="/" element={<Shoes />} />
+        <Route exact path="/shoe" element={<Shoe />} />
+
+
+
+        </Routes>
+        <Footer/>
+
+
+   
+  </BrowserRouter>
+ 
+  
+    
+    
   );
 }
 

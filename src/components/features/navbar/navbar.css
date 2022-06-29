@@ -1,0 +1,151 @@
+.navbar-container{
+    background-color: white;
+    height: 10vh;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    color: black
+   
+
+};
+
+/* #902D3C */
+
+.nav-container h4{
+    color: black;
+}
+
+
+
+.navbar-container .logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-container .logo-container .logo{
+    width: 80px;
+    margin-left: 20px;
+
+}
+
+.navbar-container .menu-item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin-top: 10px;
+    width: 150px;
+    transition: 1s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.navbar-container .menu-item-container:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.nav{
+    width: 0px;
+}
+.media-link{
+    color: white;
+    height: 0px;
+  
+    
+}
+.menu-icon{
+    display: none;
+}
+li{
+    display: none;
+}
+.nav-container .logo{
+    display: none;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+    .navbar-container{
+        visibility: hidden;
+        width: 0px;
+
+    }
+    .navbar-container .menu-item-container{
+        width: 0px;
+    }
+    .nav{
+        width: 100%;
+        background-color: brown;
+        margin-top: -10vh;
+    }
+    .nav
+    .menu-icon{
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2%;
+        margin-top: -9%;
+    }
+    
+    .nav-menu-active{
+        width: 100%;
+    }
+    .nav-menu-active li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px;
+        color: white;
+    }
+    .nav-menu-active li:hover{
+        border-bottom: solid 2px white;
+    }
+   
+    .media-link{
+        color: white;
+    }
+    .nav-menu{
+        height: 0px;
+    }
+    .nav-menu li{
+        visibility: hidden;
+    }
+    .nav-container .logo{
+        width: 40px;
+        margin-left: 10px;
+    }
+  
+   
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+

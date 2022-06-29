@@ -1,0 +1,31 @@
+.shoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+    .shoes{
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+    }
+
+    .card-container{
+        margin-top: 100px;
+
+    }
+  
+    
+}
