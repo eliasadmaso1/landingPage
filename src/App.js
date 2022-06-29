@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
         <ImageSlider slides={sliderData}/>
         <Routes>
-        <Route exact path="/" element={<Shoes />} />
+        <Route exact path="/landingPage" element={<Shoes />} />
         <Route exact path="/shoe" element={<Shoe />} />
 
 
