@@ -15,7 +15,7 @@ function App() {
         <Navbar/>
         <Routes>
         <Route exact path="/landingPage" element={<Shoes />} />
-        <Route exact path="/shoe" element={<Shoe />} />
+        <Route  path="/landingPage/shoe/:id" element={<Shoe />} />
 
 
 
