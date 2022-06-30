@@ -6,11 +6,13 @@ import Shoes from './components/pages/shoes/Shoes';
 import { sliderData } from './data/slider';
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
+import Navbar from './components/features/navbar/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
         <ImageSlider slides={sliderData}/>
+        <Navbar/>
         <Routes>
         <Route exact path="/landingPage" element={<Shoes />} />
         <Route exact path="/shoe" element={<Shoe />} />

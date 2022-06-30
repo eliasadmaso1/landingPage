@@ -4,6 +4,7 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import MenuIcon from "@mui/icons-material/Menu";
 import CancelIcon from "@mui/icons-material/Cancel";
+import {Link} from 'react-router-dom';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -13,11 +14,11 @@ function Navbar() {
   };
   const menuData = [
     {
-      title: <LocalPhoneIcon />,
+      title: <LocalPhoneIcon style={{textDecoration:"none",color:"black"}}/>,
       href: "tel:0552753626",
     },
     {
-      title: <FacebookIcon />,
+      title: <FacebookIcon style={{textDecoration:"none",color:"black"}}/>,
       href: "https://www.facebook.com/daniel.masala.14",
     },
     {
@@ -30,14 +31,14 @@ function Navbar() {
     },
     {
       title: "בית",
-      link: "/bar-repo",
+      link: "/landingPage",
     },
   ];
 
   const menuMobileData = [
     {
       title: "בית",
-      link: "/bar-repo",
+      link: "/landingPage",
     },
     {
       title: "אודות",
@@ -48,11 +49,11 @@ function Navbar() {
       link: "/gallery",
     },
     {
-      title: <FacebookIcon />,
+      title: <FacebookIcon style={{textDecoration:"none",color:"black"}}/>,
       href: "https://www.facebook.com/daniel.masala.14",
     },
     {
-      title: <LocalPhoneIcon />,
+      title: <LocalPhoneIcon style={{textDecoration:"none",color:"black"}}/>,
       href: "tel:0552753626",
     },
   ];
@@ -64,9 +65,9 @@ function Navbar() {
         {menuData.map((item) => {
           return item.link ? (
          
-              <div className="menu-item-container">
+             <Link to={item.link} style={{textDecoration:"none",color:"black"}}> <div className="menu-item-container">
                 <h4>{item.title}</h4>
-              </div>
+              </div></Link>
          
           ) : (
             <a href={item.href}>
@@ -86,10 +87,10 @@ function Navbar() {
           <ul className={click ? "nav-menu-active" : "nav-menu"}>
             {menuMobileData.map((item) => {
               return item.link ? (
-                <li onClick={handleClick}>
+                <Link to={item.link} style={{textDecoration:"none",color:"black"}}><li onClick={handleClick}>
                     {item.title}
         
-                </li>
+                </li></Link>
               ) : (
                 <li onClick={handleClick}>
                   <a href={item.href} className="media-link">
