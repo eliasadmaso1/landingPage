@@ -1,0 +1,124 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.home header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+
+}
+.header-img-container{
+    width: 80%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+
+}
+.header-img-container img{
+    width: 70%;
+    height: 80%;
+}
+
+.img-desc{
+    position: absolute;
+    width: 24%;
+    background-color: black;
+    top: 92%;
+    left: 15%;
+    height: 8%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.home section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+
+
+}
+
+.location{
+    width: 80%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.location img{
+    width: 55%;
+    height: 500px;
+    border: solid 2px;
+
+}
+.location-desc{
+    position: absolute;
+    width: 24%;
+    background-color: white;
+    top: 90%;
+    left: 38%;
+    height: 8%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    border: solid 2px black;
+    
+}
+
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+    .home header{
+        flex-direction: column;
+        height: 100%;
+        margin-top: 20px;
+        
+}
+.img-desc{
+    left: 15%;
+    top: 72%;
+    
+}
+.location img{
+    height: 220px;
+    width: 95%;
+}
+section h2{
+    margin-bottom: 5px;
+}
+
+
+.location{
+    margin-top: 30px;
+}
+.location-desc{
+    left: 29%;
+    width: 40%;
+}
+section{
+    margin-bottom: 20px;
+}
+
+
+}
+

@@ -22,12 +22,16 @@ function Navbar() {
       href: "https://www.facebook.com/daniel.masala.14",
     },
     {
-      title: "גלריה",
+      title: "ג׳ינסים",
       link: "/gallery",
     },
     {
-      title: "אודות",
+      title: "חולצות",
       link: "/about",
+    },
+    {
+      title: "נעליים",
+      link: "/shoes",
     },
     {
       title: "בית",
@@ -41,11 +45,15 @@ function Navbar() {
       link: "/landingPage",
     },
     {
-      title: "אודות",
-      link: "/about",
+      title: "נעליים",
+      link: "/shoes",
     },
     {
-      title: "גלריה",
+      title: "חולצות",
+      link: "/gallery",
+    },
+    {
+      title: "ג׳ינסים",
       link: "/gallery",
     },
     {
