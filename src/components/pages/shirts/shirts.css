@@ -1,4 +1,4 @@
-.shoes{
+.shirts{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 120vh;
@@ -24,7 +24,7 @@
 (min-width: 428px) and (max-width: 767px),
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
-    .shoes{
+    .shirts{
         grid-template-columns: 1fr;
         height: 100%;
     }

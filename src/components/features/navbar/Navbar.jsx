@@ -27,7 +27,7 @@ function Navbar() {
     },
     {
       title: "חולצות",
-      link: "/about",
+      link: "/shirts",
     },
     {
       title: "נעליים",
@@ -50,7 +50,7 @@ function Navbar() {
     },
     {
       title: "חולצות",
-      link: "/gallery",
+      link: "/shirts",
     },
     {
       title: "ג׳ינסים",

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./shoe.css";
-import Select from "../../features/select/Select";
 import { shoes } from "../../../data/shoes";
 import { useParams } from "react-router-dom";
 import {Link} from 'react-router-dom';
@@ -11,7 +10,7 @@ function Shoe() {
 
   useEffect(() => {
     const currectShoe = shoes.find((item) => {
-      return (item.id = id);
+      return (item.id == id);
     });
     setShoe(currectShoe);
   }, [id]);
