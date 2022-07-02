@@ -9,14 +9,14 @@ function Shoes() {
     <div className="shoes">
       {shoes.map((shoe) => {
         return (
-          <Link
-            to={`/landingPage/shoe/${shoe.id}`}
-            style={{ textDecoration: "none", color: "black" }}
-          >
+          // <Link
+          //   to={`/landingPage/shoe/${shoe.id}`}
+          //   style={{ textDecoration: "none", color: "black" }}
+          // >
             <div className="card-container">
-              <Card name={shoe.name} img={shoe.img} />
+              <Card name={shoe.name} images={shoe.images} />
             </div>
-          </Link>
+          // </Link>
         );
       })}
     </div>

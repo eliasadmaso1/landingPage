@@ -1,12 +1,13 @@
 import React from 'react';
+import ImageSlider from '../imageSlider/ImageSlider';
 import './card.css';
 
-function Card({img,name}) {
+function Card({images,name}) {
 
     return (
         <div className="card">
             <span className="card-title">{name}</span>
-            <img src={img} className="card-img"/>
+            <ImageSlider slides={images}/>
             
         </div>
     )
