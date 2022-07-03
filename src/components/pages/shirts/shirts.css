@@ -1,17 +1,17 @@
 .shirts{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 120vh;
+    height: 100%;
     justify-items: center;
 }
 
-/* .card-container{
+.card-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 70%;
-} */
+    width: 100%;
+    height: 100%;
+}
 
 
 @media only screen and (min-width: 414px) and (max-width: 767px),

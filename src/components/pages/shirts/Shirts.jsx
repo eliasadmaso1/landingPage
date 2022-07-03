@@ -11,14 +11,14 @@ function Shirts() {
         <div className="shirts">
         {shirts.map((shirt) => {
           return (
-            <Link
-              to={`/landingPage/shirt/${shirt.id}`}
-              style={{ textDecoration: "none", color: "black" }}
-            >
+            // <Link
+            //   to={`/landingPage/shirt/${shirt.id}`}
+            //   style={{ textDecoration: "none", color: "black" }}
+            // >
               <div className="card-container">
                 <Card name={shirt.name} img={shirt.img} />
               </div>
-            </Link>
+            // </Link>
           );
         })}
       </div>
