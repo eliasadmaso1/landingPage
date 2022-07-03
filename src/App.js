@@ -18,9 +18,9 @@ function App() {
   return (
     <BrowserRouter>
       <ContentSlider slides={sliderData} />
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
-        <Route exact path="/landingPage" element={<Home />} />
+        <Route exact path="/landingPage" element={<Shirts />} />
         <Route exact path="/shoes" element={<Shoes />} />
         <Route exact path="/shirts" element={<Shirts />} />
 

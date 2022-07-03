@@ -21,8 +21,8 @@ function Shirt() {
               <div className="product-container">
                 <div className="product-layout">
                   <div className="shirt-images">
-                    <img className="img1" src={shirt.images[0]} width="500" />
-                    <img
+                    <img className="img1" src={shirt.img} width="500" />
+                    {/* <img
                       className="img2"
                       src={shirt.images[1]}
                       width="500"
@@ -36,7 +36,7 @@ function Shirt() {
                       className="img4"
                       src={shirt.images[3]}
                       width="500"
-                    />
+                    /> */}
                   </div>
                   <div className="shirt-details">
                     <h3>חולצות גברים</h3>

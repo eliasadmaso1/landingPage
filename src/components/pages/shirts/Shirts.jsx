@@ -16,9 +16,9 @@ function Shirts() {
             //   style={{ textDecoration: "none", color: "black" }}
             // >
               <div className="card-container">
-                <Card name={shirt.name} img={shirt.img} />
+                <Card name={shirt.name} img={shirt.img} url={`/landingPage/shirt/${shirt.id}`}/>
               </div>
-            // </Link>
+            //  </Link>
           );
         })}
       </div>
