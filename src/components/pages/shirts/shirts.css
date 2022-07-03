@@ -2,18 +2,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 120vh;
+    justify-items: center;
 }
 
-.card-container{
+/* .card-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 300px;
     width: 70%;
-    margin-left: 15%;
-    background-color: white;
-    margin-top: 20px;
-}
+} */
 
 
 @media only screen and (min-width: 414px) and (max-width: 767px),

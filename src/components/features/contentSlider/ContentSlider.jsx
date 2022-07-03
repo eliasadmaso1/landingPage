@@ -34,7 +34,7 @@ function ContentSlider({slides}) {
             <ArrowForwardIosIcon className="content-right-arrow" onClick={nextSlide} style={{width:"15px"}}/>
             {slides.map((slide,index)=>{
                 return(
-                    <div className={index === current ? 'slide active' : 'slide'} key={index}>
+                    <div className={index === current ? 'content-slide active' : 'content-slide'} key={index}>
                        {index === current && <div className="slide-div">{slide.text}</div>} 
                     </div>
                 )

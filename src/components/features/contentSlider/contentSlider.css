@@ -31,12 +31,12 @@
 
 }
 
-.slide{
+.content-slide{
     opacity: 0;
     transition-duration: 1s ease;
 }
 
-.slide.active{
+.content-slide.active{
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
@@ -62,11 +62,11 @@
 
     }
     .content-left-arrow{
-        left: 1%;
+        left: 5%;
 
     }
     .content-right-arrow{
-        right: 1%;
+        right: 5%;
 
     }
 }

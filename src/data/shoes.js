@@ -43,5 +43,16 @@ export const shoes = [
         price:"989.90 ₪",
         desc:"נעלי ריצה מדגם Downshifter 11. לנעליים לוגו מותג, שרוכי קשירה וסולייה עבה.",
     },
+    {
+        id:5,
+        name:"סניקרס Air VaporMax",
+        img:"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-11633603422.jpg",
+        images:["https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-11633603422.jpg",
+        "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-21633603422.jpg",
+    "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-31633603422.jpg",
+"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-41633603422.jpg"],
+        price:"989.90 ₪",
+        desc:"נעלי ריצה מדגם Downshifter 11. לנעליים לוגו מותג, שרוכי קשירה וסולייה עבה.",
+    },
 
 ];

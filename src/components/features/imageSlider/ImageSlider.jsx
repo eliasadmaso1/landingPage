@@ -25,8 +25,8 @@ function ImageSlider({slides}) {
 
     return (
         <div className="slider">
-            <ArrowBackIosIcon className="left-arrow" onClick={prevSlide}/>
-            <ArrowForwardIosIcon className="right-arrow" onClick={nextSlide}/>
+            <ArrowBackIosIcon className="left-arrow" onClick={prevSlide} style={{width:"17px"}}/>
+            <ArrowForwardIosIcon className="right-arrow" onClick={nextSlide} style={{width:"17px"}}/>
             {slides.map((slide,index)=>{
                 return(
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
