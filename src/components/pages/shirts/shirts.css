@@ -1,6 +1,6 @@
 .shirts{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
     justify-items: center;
 }
@@ -9,8 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 100%;
+    margin-bottom: 50px;
 }
 
 
@@ -27,6 +28,8 @@
 
     .card-container{
         height: 90%;
+        margin-top: 50px;
+        width: 100%;
 
     }
   

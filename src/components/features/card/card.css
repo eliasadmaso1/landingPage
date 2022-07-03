@@ -5,8 +5,10 @@
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     background-color: white;
-    width: 60%;
-    height: 400px;
+    width: 70%;
+    height: 350px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
 
 
 }
