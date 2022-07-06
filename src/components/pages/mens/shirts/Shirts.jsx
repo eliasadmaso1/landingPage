@@ -12,7 +12,7 @@ function Shirts() {
           return (
         
               <div className="card-container">
-                <Card name={shirt.name} img={shirt.img} url={`/landingPage/shirt/${shirt.id}`}/>
+                <Card name={shirt.name} img={shirt.img} price={shirt.price} sizes={shirt.sizes}/>
               </div>
        
           );

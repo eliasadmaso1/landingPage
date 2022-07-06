@@ -27,7 +27,7 @@ function Navbar() {
     },
     {
       title: "נשים",
-      link: "/shirts",
+      link: "/women",
     },
     {
       title: "גברים",
@@ -45,12 +45,12 @@ function Navbar() {
       link: "/landingPage",
     },
     {
-      title: "נעליים",
-      link: "/shoes",
+      title: "גברים",
+      link: "/mens",
     },
     {
-      title: "חולצות",
-      link: "/shirts",
+      title: "נשים",
+      link: "/women",
     },
     {
       title: "ג׳ינסים",

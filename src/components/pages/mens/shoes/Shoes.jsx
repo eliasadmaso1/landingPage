@@ -12,7 +12,7 @@ function Shoes() {
         return (
        
             <div className="card-container">
-              <Card name={shoe.name} img={shoe.img} />
+              <Card name={shoe.name} img={shoe.img} price={shoe.price} sizes={shoe.sizes}/>
             </div>
        
         );
