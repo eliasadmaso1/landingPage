@@ -1,0 +1,49 @@
+.men{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.men-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.men-section-title{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.men-img{
+    width: 500px;
+    height: 500px;
+
+}
+
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+    .men{
+        flex-direction: column;
+    }
+
+    .men-img{
+        width: 100%;
+        height: 100%;
+    }
+  
+
+}
+

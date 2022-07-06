@@ -1,58 +1,29 @@
-export const shoes = [
+import nikeBlack from '../components/images/shoes/men/nike-black.jpeg';
+import nikeWhite from '../components/images/shoes/men/nike-white.jpeg';
+import nikeBlackGold from '../components/images/shoes/men/nike-blackgold.jpeg'
+
+export const menShoes = [
     {
-        id:1,
-        name:"נעלי ריצה Downshifter 11",
-        img:"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/1/z101570001-11626937260.jpg",
-        images:["https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/1/z101570001-11626937260.jpg",
-        "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/1/z101570001-21626937260.jpg",
-    "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/1/z101570001-31626937260.jpg",
-"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/1/z101570001-41626937260.jpg"],
-        price:"199.92 ₪",
-        desc:"נעלי ריצה מדגם Downshifter 11. לנעליים לוגו מותג, שרוכי קשירה וסולייה עבה.",
-    },
-    {
-        id:2,
-        name:"סניקרס Air Max 2090",
-        img:"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x794940001-11611567389.jpg",
-        images:["https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x794940001-11611567389.jpg",
-        "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x794940001-21611567389.jpg",
-    "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x794940001-31611567389.jpg",
-"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x794940001-41611567389.jpg"],
-        price:"349.93 ₪",
-        desc:"נעלי ריצה מדגם Downshifter 11. לנעליים לוגו מותג, שרוכי קשירה וסולייה עבה.",
-    },
-    {
-        id:3,
-        name:"סניקרס עור Air Force 1",
-        img:"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x795480001-11611659251.jpg",
-        images:["https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x795480001-11611659251.jpg",
-        "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x795480001-21611659251.jpg",
-    "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x795480001-31611659251.jpg",
-"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/7/x795480001-51611659251.jpg"],
-        price:"329.90 ₪",
-        desc:"נעלי ריצה מדגם Downshifter 11. לנעליים לוגו מותג, שרוכי קשירה וסולייה עבה.",
-    },
-    {
-        id:4,
-        name:"סניקרס Air VaporMax",
-        img:"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-11633603422.jpg",
-        images:["https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-11633603422.jpg",
-        "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-21633603422.jpg",
-    "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-31633603422.jpg",
-"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-41633603422.jpg"],
-        price:"989.90 ₪",
-        desc:"נעלי ריצה מדגם Downshifter 11. לנעליים לוגו מותג, שרוכי קשירה וסולייה עבה.",
-    },
-    {
-        id:5,
-        name:"סניקרס Air VaporMax",
-        img:"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-11633603422.jpg",
-        images:["https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-11633603422.jpg",
-        "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-21633603422.jpg",
-    "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-31633603422.jpg",
-"https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x986220001-41633603422.jpg"],
-        price:"989.90 ₪",
-        desc:"נעלי ריצה מדגם Downshifter 11. לנעליים לוגו מותג, שרוכי קשירה וסולייה עבה.",
-    },
+        id: 1,
+        name: "טי שירט עם הדפס לוגו",
+        img: nikeBlack,
+        price: "99.90 ₪",
+        desc: "חולצת טי שירט מבד כותנה רך ונעים עם הדפס לוגו המותג בחזית ומאחור ומפתח צוואר עגול. לחולצה שרוולים קצרים בשילוב סטריפים בהדפס לוגו רץ.",
+      },
+      {
+        id: 1,
+        name: "טי שירט עם הדפס לוגו",
+        img: nikeWhite,
+        price: "99.90 ₪",
+        desc: "חולצת טי שירט מבד כותנה רך ונעים עם הדפס לוגו המותג בחזית ומאחור ומפתח צוואר עגול. לחולצה שרוולים קצרים בשילוב סטריפים בהדפס לוגו רץ.",
+      },
+      {
+        id: 1,
+        name: "טי שירט עם הדפס לוגו",
+        img: nikeBlackGold,
+        price: "99.90 ₪",
+        desc: "חולצת טי שירט מבד כותנה רך ונעים עם הדפס לוגו המותג בחזית ומאחור ומפתח צוואר עגול. לחולצה שרוולים קצרים בשילוב סטריפים בהדפס לוגו רץ.",
+      },
+   
 
 ];
