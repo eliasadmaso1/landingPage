@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/landingPage/static/css/main.16a1dc64.css",
-    "main.js": "/landingPage/static/js/main.d1193f94.js",
+    "main.css": "/landingPage/static/css/main.05acad4e.css",
+    "main.js": "/landingPage/static/js/main.c6e19350.js",
     "static/js/787.6606bfd5.chunk.js": "/landingPage/static/js/787.6606bfd5.chunk.js",
-    "static/media/shirt.jpeg": "/landingPage/static/media/shirt.ec5a25b7a0314abbcbd2.jpeg",
-    "static/media/shirt7.jpeg": "/landingPage/static/media/shirt7.4241fd93fc76a8d8b646.jpeg",
-    "static/media/shirt4.jpeg": "/landingPage/static/media/shirt4.c314095e075b143b25c1.jpeg",
-    "static/media/shirt10.jpeg": "/landingPage/static/media/shirt10.f52ba7482c1d476e0e01.jpeg",
-    "static/media/shirt8.jpeg": "/landingPage/static/media/shirt8.464cf6f1760d4eb6587b.jpeg",
-    "static/media/shirt3.jpeg": "/landingPage/static/media/shirt3.dd2c07f9ec42424b9b54.jpeg",
-    "static/media/shirt5.jpeg": "/landingPage/static/media/shirt5.a0813d1233fbf6001466.jpeg",
-    "static/media/shirt9.jpeg": "/landingPage/static/media/shirt9.5694ea00b3c11bb66a81.jpeg",
-    "static/media/shirt2.jpeg": "/landingPage/static/media/shirt2.ed6dca20fc2b8d399cd7.jpeg",
-    "static/media/shirt6.jpeg": "/landingPage/static/media/shirt6.651d2e9285fb8162d304.jpeg",
+    "static/media/nike-blackgold.jpeg": "/landingPage/static/media/nike-blackgold.f1b19ebe9d71e6123884.jpeg",
+    "static/media/offwhite-blackB.jpeg": "/landingPage/static/media/offwhite-blackB.b2c7de60dbdb85e9d176.jpeg",
+    "static/media/replay-black.jpeg": "/landingPage/static/media/replay-black.33b82fc1e231a0d0f9f8.jpeg",
+    "static/media/barrow-black.jpeg": "/landingPage/static/media/barrow-black.54712f355a082dc7e253.jpeg",
+    "static/media/nike-black.jpeg": "/landingPage/static/media/nike-black.b8d48ead36dfb472eb8c.jpeg",
+    "static/media/icon-black.jpeg": "/landingPage/static/media/icon-black.b71b2fbaafd69ad2fcc9.jpeg",
+    "static/media/jordan-black.jpeg": "/landingPage/static/media/jordan-black.782fa4c391a3b8d9ac83.jpeg",
+    "static/media/barrow-blackB.jpeg": "/landingPage/static/media/barrow-blackB.7dfcd0e01dee2c9f532b.jpeg",
+    "static/media/offwhite-black.jpeg": "/landingPage/static/media/offwhite-black.7395b29d31f75edab0b1.jpeg",
+    "static/media/icon-white.jpeg": "/landingPage/static/media/icon-white.f9ef9f849ea456b6d62e.jpeg",
+    "static/media/barrow-white.jpeg": "/landingPage/static/media/barrow-white.51d305b7f738ce4fa03d.jpeg",
+    "static/media/nike-white.jpeg": "/landingPage/static/media/nike-white.3b6d979657137db8e9b4.jpeg",
     "index.html": "/landingPage/index.html",
-    "main.16a1dc64.css.map": "/landingPage/static/css/main.16a1dc64.css.map",
-    "main.d1193f94.js.map": "/landingPage/static/js/main.d1193f94.js.map",
+    "main.05acad4e.css.map": "/landingPage/static/css/main.05acad4e.css.map",
+    "main.c6e19350.js.map": "/landingPage/static/js/main.c6e19350.js.map",
     "787.6606bfd5.chunk.js.map": "/landingPage/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16a1dc64.css",
-    "static/js/main.d1193f94.js"
+    "static/css/main.05acad4e.css",
+    "static/js/main.c6e19350.js"
   ]
 }
