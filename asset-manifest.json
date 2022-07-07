@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landingPage/static/css/main.29f7bd3b.css",
-    "main.js": "/landingPage/static/js/main.bc686c4f.js",
+    "main.js": "/landingPage/static/js/main.e4661961.js",
     "static/js/787.6606bfd5.chunk.js": "/landingPage/static/js/787.6606bfd5.chunk.js",
     "static/media/nike-blackgold.jpeg": "/landingPage/static/media/nike-blackgold.f1b19ebe9d71e6123884.jpeg",
     "static/media/offwhite-blackB.jpeg": "/landingPage/static/media/offwhite-blackB.b2c7de60dbdb85e9d176.jpeg",
@@ -14,7 +14,11 @@
     "static/media/offwhite-black.jpeg": "/landingPage/static/media/offwhite-black.7395b29d31f75edab0b1.jpeg",
     "static/media/icon-white.jpeg": "/landingPage/static/media/icon-white.f9ef9f849ea456b6d62e.jpeg",
     "static/media/barrow-white.jpeg": "/landingPage/static/media/barrow-white.51d305b7f738ce4fa03d.jpeg",
+    "static/media/adidas-white.jpeg": "/landingPage/static/media/adidas-white.1d2895f1a3fa3408fb88.jpeg",
     "static/media/nike-white.jpeg": "/landingPage/static/media/nike-white.3b6d979657137db8e9b4.jpeg",
+    "static/media/adidas1.jpeg": "/landingPage/static/media/adidas1.b2558834ebee42adc9c8.jpeg",
+    "static/media/adidas3.jpeg": "/landingPage/static/media/adidas3.759ec3c833041ffafc0b.jpeg",
+    "static/media/adidas2.jpeg": "/landingPage/static/media/adidas2.3b6c6c3f0c49b5aa7254.jpeg",
     "static/media/nike-whiteyellow.jpeg": "/landingPage/static/media/nike-whiteyellow.479c40b64cd809ed1263.jpeg",
     "static/media/nike-blackwhite.jpeg": "/landingPage/static/media/nike-blackwhite.fa6de203aa4853cc1893.jpeg",
     "static/media/nike-whiteblack.jpeg": "/landingPage/static/media/nike-whiteblack.f26bda9ccc5395274312.jpeg",
@@ -36,11 +40,11 @@
     "static/media/woman-adidas.jpeg": "/landingPage/static/media/woman-adidas.364fa79e2c2f68631bbf.jpeg",
     "index.html": "/landingPage/index.html",
     "main.29f7bd3b.css.map": "/landingPage/static/css/main.29f7bd3b.css.map",
-    "main.bc686c4f.js.map": "/landingPage/static/js/main.bc686c4f.js.map",
+    "main.e4661961.js.map": "/landingPage/static/js/main.e4661961.js.map",
     "787.6606bfd5.chunk.js.map": "/landingPage/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29f7bd3b.css",
-    "static/js/main.bc686c4f.js"
+    "static/js/main.e4661961.js"
   ]
 }
