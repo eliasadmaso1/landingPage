@@ -21,7 +21,7 @@ function Footer() {
 
             </div>
             <div className="footer-details">
-                <h4>ירון מותגים</h4>
+                <h4>ענק המותגים</h4>
                 <span className="footer-span">הרצל 31, בת ים</span>
                 <span className="footer-span">050-7659943</span>
                 <FacebookIcon className="footer-icon"/>

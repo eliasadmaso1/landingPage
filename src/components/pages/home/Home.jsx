@@ -4,6 +4,7 @@ import "./home.css";
 function Home() {
   return (
     <div className="home">
+      <h2 className="home-title">ענק המותגים</h2>
       <header>
         <div className="header-img-container">
           <img src="https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/3/z381818427-11649253925.jpg" />
@@ -20,10 +21,10 @@ function Home() {
         </div>
       </header>
       <main>
-        <img src="https://i.pinimg.com/736x/fa/a8/1c/faa81c8fd49f50ff42a944de835ba063--dsquared-logo-s.jpg" width="200" height="200"/>
+        <img src="https://i.pinimg.com/736x/fa/a8/1c/faa81c8fd49f50ff42a944de835ba063--dsquared-logo-s.jpg" width="180" height="200"/>
         <img src="https://play-lh.googleusercontent.com/fis-9rTH8zeCfMrHl-AQxY2wHP6ilz8pcOx_BiuMTKECK2Wz11u6Oui6poEAiVz3IlhB" width="200" height="200"/>
         <img src="http://cdn.shopify.com/s/files/1/0249/5892/6941/products/Nike-Swoosh-Logo-Iron-On-White_1200x1200.jpg" width="280" height="200"/>
-        <img src="https://1000logos.net/wp-content/uploads/2019/05/Off-White-L%D0%BEgo.jpg" width="220" height="170"/>
+        <img src="https://1000logos.net/wp-content/uploads/2019/05/Off-White-L%D0%BEgo.jpg" width="220" height="120"/>
 
 
 
