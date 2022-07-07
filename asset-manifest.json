@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landingPage/static/css/main.ccb83fe7.css",
-    "main.js": "/landingPage/static/js/main.58591152.js",
+    "main.css": "/landingPage/static/css/main.4d44aa16.css",
+    "main.js": "/landingPage/static/js/main.62b2ac50.js",
     "static/js/787.6606bfd5.chunk.js": "/landingPage/static/js/787.6606bfd5.chunk.js",
     "static/media/nike-blackgold.jpeg": "/landingPage/static/media/nike-blackgold.f1b19ebe9d71e6123884.jpeg",
     "static/media/offwhite-blackB.jpeg": "/landingPage/static/media/offwhite-blackB.b2c7de60dbdb85e9d176.jpeg",
@@ -19,18 +19,23 @@
     "static/media/karl-blackwhite.jpeg": "/landingPage/static/media/karl-blackwhite.de03c50a7fb40c7c9f82.jpeg",
     "static/media/karl-whiteblack.jpeg": "/landingPage/static/media/karl-whiteblack.9477c60602cefde13fab.jpeg",
     "static/media/karl-whitered.jpeg": "/landingPage/static/media/karl-whitered.6af6f4b24ccfa536720d.jpeg",
+    "static/media/woman-nike-fullC.jpeg": "/landingPage/static/media/woman-nike-fullC.c83dccf449b0ee099487.jpeg",
+    "static/media/woman-nike-fullD.jpeg": "/landingPage/static/media/woman-nike-fullD.8dbf66ee36aa3be281c3.jpeg",
     "static/media/karl-whitebrown.jpeg": "/landingPage/static/media/karl-whitebrown.bede505278bf306c218d.jpeg",
     "static/media/woman-barrow2.jpeg": "/landingPage/static/media/woman-barrow2.5d479af4c9a0bad9bac6.jpeg",
-    "static/media/woman-barrow.jpeg": "/landingPage/static/media/woman-barrow.68816f9f353afb3ac9ba.jpeg",
+    "static/media/woman-nike-full.jpeg": "/landingPage/static/media/woman-nike-full.2049210b6c824a30152b.jpeg",
+    "static/media/woman-nike-fullB.jpeg": "/landingPage/static/media/woman-nike-fullB.6bf9b3355b6d6cf13933.jpeg",
+    "static/media/woman-nike-fullE.jpeg": "/landingPage/static/media/woman-nike-fullE.e456912726509e298fbf.jpeg",
     "static/media/woman-barrowB.jpeg": "/landingPage/static/media/woman-barrowB.1bb65901fc4fd15aab5e.jpeg",
-    "static/media/woman-barrowB2.jpeg": "/landingPage/static/media/woman-barrowB2.0935331f8ad53747845c.jpeg",
+    "static/media/woman-nikepro.jpeg": "/landingPage/static/media/woman-nikepro.64cdbbacc9e1083edf00.jpeg",
+    "static/media/woman-adidas.jpeg": "/landingPage/static/media/woman-adidas.364fa79e2c2f68631bbf.jpeg",
     "index.html": "/landingPage/index.html",
-    "main.ccb83fe7.css.map": "/landingPage/static/css/main.ccb83fe7.css.map",
-    "main.58591152.js.map": "/landingPage/static/js/main.58591152.js.map",
+    "main.4d44aa16.css.map": "/landingPage/static/css/main.4d44aa16.css.map",
+    "main.62b2ac50.js.map": "/landingPage/static/js/main.62b2ac50.js.map",
     "787.6606bfd5.chunk.js.map": "/landingPage/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccb83fe7.css",
-    "static/js/main.58591152.js"
+    "static/css/main.4d44aa16.css",
+    "static/js/main.62b2ac50.js"
   ]
 }
