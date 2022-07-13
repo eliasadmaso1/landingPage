@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import "./home.css";
 import menu from '../../images/others/menu2.png';
 import close from '../../images/others/cancel.png';
-import video from '../../images/others/backround.mp4';
+import back from '../../images/others/back2.jpg';
 import {Link} from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
+
 
 function Home() {
 
@@ -23,7 +24,7 @@ function Home() {
             {toggle ?  <MenuIcon onClick={clicked} style={{fontSize:"35px"}}/> :   <CloseIcon onClick={clicked} style={{fontSize:"35px"}}/>}
           
         </header>
-        <video src={video} muted loop autoplay></video>
+        <img src={back} alt="background" className="background"/>
 
         <div className="overlay"></div>
 
@@ -38,8 +39,12 @@ function Home() {
         <ul>
         <li> <Link to="/landingPage" className="link">עמוד הבית</Link></li>
         <li> <Link to="/menShoes" className="link">נעלי גברים</Link></li>
-        <li> <Link to="/" className="link">עמוד הבית</Link></li>
-        <li> <Link to="/" className="link">עמוד הבית</Link></li>
+        <li> <Link to="/menShirts" className="link">חולצות גברים</Link></li>
+        <li> <Link to="/womenShoes" className="link">נעלי נשים</Link></li>
+        <li> <Link to="/womenShirts" className="link">חולצות נשים</Link></li>
+        <li> <Link to="/" className="link">נעלי ילדים</Link></li>
+        <li> <Link to="/" className="link">הלבשה תחתונה</Link></li>
+
 
           
 

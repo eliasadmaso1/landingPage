@@ -8,12 +8,12 @@ import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/features/navbar/Navbar";
 import Home from "./components/pages/home/Home";
-import Shirts from "./components/pages/mens/shirts/Shirts";
+import MenShirts from "./components/pages/mens/shirts/Shirts";
 import ImageSlider from "./components/features/imageSlider/ImageSlider";
 import { shirts, womenPants } from "./data/shirts";
 import Mens from "./components/pages/mens/page/Mens";
 import WomenShoes from "./components/pages/women/shoes/Shoes";
-import Women from "./components/pages/women/page/Women";
+import WomenShirts from "./components/pages/women/page/Women";
 import Pants from "./components/pages/women/pants/Pants";
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -28,9 +28,9 @@ function App() {
         <Route exact path="/landingPage" element={<Home />} />
         <Route path="/mens" element={<Mens />} />
         <Route path="/menShoes" element={<MenShoes />} />
-        <Route path="/shirts" element={<Shirts />} />
+        <Route path="menShirts" element={<MenShirts />} />
         <Route path="/womenShoes" element={<WomenShoes />} />
-        <Route path="/women" element={<Women />} />
+        <Route path="/womenShirts" element={<WomenShirts />} />
         <Route path="/womenPants" element={<Pants />} />
 
 

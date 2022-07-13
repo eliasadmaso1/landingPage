@@ -3,6 +3,7 @@ import Card from "../../../features/card/Card";
 import "./shoes.css";
 import { menShoes } from "../../../../data/shoes";
 import { Link } from "react-router-dom";
+import Footer from "../../../features/footer/Footer";
 
 function Shoes() {
   return (
@@ -28,6 +29,7 @@ function Shoes() {
           );
         })}
       </div>
+      <Footer/>
     </>
   );
 }
