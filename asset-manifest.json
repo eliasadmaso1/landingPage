@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/landingPage/static/css/main.29f7bd3b.css",
-    "main.js": "/landingPage/static/js/main.e4661961.js",
+    "main.css": "/landingPage/static/css/main.8fb08cea.css",
+    "main.js": "/landingPage/static/js/main.93a6d403.js",
     "static/js/787.6606bfd5.chunk.js": "/landingPage/static/js/787.6606bfd5.chunk.js",
+    "static/media/backround.mp4": "/landingPage/static/media/backround.1db71fc60ae4cfba9cea.mp4",
     "static/media/nike-blackgold.jpeg": "/landingPage/static/media/nike-blackgold.f1b19ebe9d71e6123884.jpeg",
     "static/media/offwhite-blackB.jpeg": "/landingPage/static/media/offwhite-blackB.b2c7de60dbdb85e9d176.jpeg",
     "static/media/replay-black.jpeg": "/landingPage/static/media/replay-black.33b82fc1e231a0d0f9f8.jpeg",
@@ -24,6 +25,7 @@
     "static/media/nike-whiteblack.jpeg": "/landingPage/static/media/nike-whiteblack.f26bda9ccc5395274312.jpeg",
     "static/media/nike-blackpink.jpeg": "/landingPage/static/media/nike-blackpink.007c5ca4700d112baf69.jpeg",
     "static/media/nike-whitepink.jpeg": "/landingPage/static/media/nike-whitepink.b720c7ae1b1fab855e63.jpeg",
+    "static/media/cancel.png": "/landingPage/static/media/cancel.a9c7ef9771fd37b27bba.png",
     "static/media/karl-blackpink.jpeg": "/landingPage/static/media/karl-blackpink.8b4bf07e51d9ef396a24.jpeg",
     "static/media/karl-blackwhite.jpeg": "/landingPage/static/media/karl-blackwhite.de03c50a7fb40c7c9f82.jpeg",
     "static/media/karl-whiteblack.jpeg": "/landingPage/static/media/karl-whiteblack.9477c60602cefde13fab.jpeg",
@@ -39,12 +41,12 @@
     "static/media/woman-nikepro.jpeg": "/landingPage/static/media/woman-nikepro.64cdbbacc9e1083edf00.jpeg",
     "static/media/woman-adidas.jpeg": "/landingPage/static/media/woman-adidas.364fa79e2c2f68631bbf.jpeg",
     "index.html": "/landingPage/index.html",
-    "main.29f7bd3b.css.map": "/landingPage/static/css/main.29f7bd3b.css.map",
-    "main.e4661961.js.map": "/landingPage/static/js/main.e4661961.js.map",
+    "main.8fb08cea.css.map": "/landingPage/static/css/main.8fb08cea.css.map",
+    "main.93a6d403.js.map": "/landingPage/static/js/main.93a6d403.js.map",
     "787.6606bfd5.chunk.js.map": "/landingPage/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29f7bd3b.css",
-    "static/js/main.e4661961.js"
+    "static/css/main.8fb08cea.css",
+    "static/js/main.93a6d403.js"
   ]
 }
