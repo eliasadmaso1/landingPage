@@ -24,7 +24,7 @@
     height: 90%;
 }
 
-.overlay {
+.card-overlay {
     position: absolute;
     display: flex;
     justify-content:flex-start;
@@ -37,7 +37,7 @@
     background-color:black;
   }
   
-  .card:hover .overlay {
+  .card:hover .card-overlay {
     opacity: 1;
   }
   
@@ -54,17 +54,18 @@
       display: flex;
       justify-content: center;
       justify-content: space-evenly;
+      margin-top: 10px;
 
 
   }
 
   .sizes-title{
       color: white;
+      margin-top: 10px;
   }
 
   .size{
-      border: solid 5px black;
-      width: 10%;
+      width: 15%;
       color: black;
       display: flex;
       justify-content: center;

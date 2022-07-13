@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useState } from "react";
 import Footer from "./components/features/footer/Footer";
 import ContentSlider from "./components/features/contentSlider/ContentSlider";
 import MenShoes from "./components/pages/mens/shoes/Shoes";
@@ -14,12 +15,15 @@ import Mens from "./components/pages/mens/page/Mens";
 import WomenShoes from "./components/pages/women/shoes/Shoes";
 import Women from "./components/pages/women/page/Women";
 import Pants from "./components/pages/women/pants/Pants";
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
 
 function App() {
+
+
   return (
     <BrowserRouter>
       <ContentSlider slides={sliderData} />
-      <Navbar />
       <Routes>
         <Route exact path="/landingPage" element={<Home />} />
         <Route path="/mens" element={<Mens />} />
@@ -33,7 +37,6 @@ function App() {
 
 
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

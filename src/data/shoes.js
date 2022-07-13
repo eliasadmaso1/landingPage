@@ -39,30 +39,7 @@ import { womenPants } from './shirts';
 
 
 export const menShoes = [
-//     {
-//         id: 1,
-//         name: "טי שירט עם הדפס לוגו",
-//         img: nikeBlack,
-//         price: "99.90 ₪",
-// sizes:[
-//     41,42,43,44
-// ]      },
-//       {
-//         id: 2,
-//         name: "טי שירט עם הדפס לוגו",
-//         img: nikeWhite,
-//         price: "99.90 ₪",
-// sizes:[
-//     41,42,43,44,45,46
-// ]      },
-//       {
-//         id: 3,
-//         name: "טי שירט עם הדפס לוגו",
-//         img: nikeBlackGold,
-//         price: "99.90 ₪",
-// sizes:[
-//     41,42,43,44
-// ]      },
+
 {
     id: 4,
     name: "טי שירט עם הדפס לוגו",

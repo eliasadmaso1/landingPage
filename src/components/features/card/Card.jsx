@@ -8,7 +8,7 @@ function Card({name,img,card2,price,sizes}) {
     return (
         <div className="card">
            <img src={img} className={!card2 ? "card-img" : "card-img2"}/>
-           <div className="overlay">
+           <div className="card-overlay">
              
                   <span className="text">{name}</span>
                   <span className="text">{price}</span>

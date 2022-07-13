@@ -14,6 +14,33 @@
     margin-bottom: 50px;
 }
 
+.back-home{
+    background-color: black;
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:  20px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+    
+}
+
+.back-home:hover{
+    opacity: 0.5;
+}
+
+.back-link{
+    color: white;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+}
+
 
 @media only screen and (min-width: 414px) and (max-width: 767px),
 (min-width: 412px) and (max-width: 767px),
@@ -26,8 +53,7 @@
         height: 100%;
     }
 
-    .card-container{
-
+    .back-home{
     }
   
     

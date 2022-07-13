@@ -1,109 +1,163 @@
-.home{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.home header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    height: 70vh;
-    border-bottom: solid 0.5px;
-    background-color: white;
-
-}
-.header-img-container{
-    width: 80%;
-    position:relative;
-    display: flex;
-    justify-content: center;
-
-}
-.header-img-container img{
-    width: 70%;
-    height: 80%;
-
-}
-
-.img-desc{
-    position: absolute;
-    width: 24%;
-    background-color: black;
-    top: 92%;
-    left: 15%;
-    height: 8%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
-
+    font-weight: bold;
 }
 
-main{
+.showcase{
+    position: absolute;
+    right: 0;
     width: 100%;
-    height: 200px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     background-color: black;
+    color: white;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.showcase.active{
+    right: 300px;
+}
+
+.logo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+}
+
+.menu ul{
+    position: relative;
+    list-style:none;
+}
+.menu ul li{
+    margin-top: 5px;
+}
+
+.menu ul li .link{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover{
+    color: gray;
 }
 
 
-.home section{
+.toggle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.toggle.active{
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
+
+}
+
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+
+}
+
+.showcase header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    position: relative;
+    z-index: 10;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 60px;
-    margin-bottom: 60px;
-
-
 }
 
-.location{
-    width: 80%;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-
-}
-
-.location img{
-    width: 55%;
-    height: 500px;
-    box-shadow: 5px 15px 10px  #0f0e0e;
-
-
-}
-.location-desc{
+.overlay{
     position: absolute;
-    width: 24%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    mix-blend-mode: overlay;
+}
+
+
+.text a{
+    display: inline-block;
+    font-size: 1em;
+    text-decoration: none;
     background-color: white;
-    top: 92%;
-    left: 18%;
-    height: 8%;
+    padding: 10px 30px;
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-.home-title{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: flex;
-    justify-content: center;
-
+    margin-top: 15px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    width: 100px;
 
 }
+
+.text a:hover{
+    width: 120px;
+    letter-spacing: 5px;
+
+}
+
+.text h2
+{
+  font-size: 3em;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.text h3
+{
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 10px;
+
+}
+
 
 
 @media only screen and (min-width: 414px) and (max-width: 767px),
@@ -112,45 +166,11 @@ main{
 (min-width: 428px) and (max-width: 767px),
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
-    .home header{
-        flex-direction: column;
-        height: 100%;
-        margin-top: 20px;
-        
-}
-.header-img-container{
-    width: 100%;
-}
-.img-desc{
-    left: 15%;
-    top: 72%;
-    
-}
-.location img{
-    height: 220px;
-    width: 95%;
-}
-section h2{
-    margin-bottom: 5px;
-}
 
+    .showcase header{
+        padding: 5px;
 
-.location{
-    margin-top: 30px;
-}
-.location-desc{
-    left: 29%;
-    width: 40%;
-}
-section{
-    margin-bottom: 20px;
-}
-main{
-    flex-direction: column;
-    height: 100%;
-    
-}
-
+    }
 
 }
 

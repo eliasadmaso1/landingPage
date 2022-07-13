@@ -1,54 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home.css";
+import menu from '../../images/others/menu2.png';
+import close from '../../images/others/cancel.png';
+import video from '../../images/others/backround.mp4';
+import {Link} from 'react-router-dom';
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Home() {
+
+    const [toggle,setToggle] = useState(true);
+
+    const clicked = ()=>{
+        setToggle(prev => !prev);
+    }
+
   return (
-    <div className="home">
-      <h2 className="home-title">ענק המותגים</h2>
-      <header>
-        <div className="header-img-container">
-          <img src="https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/3/z381818427-11649253925.jpg" />
-          <div className="img-desc">חולצות</div>
+    <>
+        <section className={toggle ? "showcase" : "showcase active"}>
+        <header>
+            <h2 className="logo">ענק המותגים</h2>
+            {toggle ?  <MenuIcon onClick={clicked} style={{fontSize:"35px"}}/> :   <CloseIcon onClick={clicked} style={{fontSize:"35px"}}/>}
+          
+        </header>
+        <video src={video} muted loop autoplay></video>
+
+        <div className="overlay"></div>
+
+        <div className="text">
+            <h2>כל המותגים</h2>
+            <h3>איכות גבוהה</h3>
+            <h3>מחירים זולים</h3>
+           <a href="">ווצאפ</a>
         </div>
+    </section>
+    <div className="menu">
+        <ul>
+        <li> <Link to="/landingPage" className="link">עמוד הבית</Link></li>
+        <li> <Link to="/menShoes" className="link">נעלי גברים</Link></li>
+        <li> <Link to="/" className="link">עמוד הבית</Link></li>
+        <li> <Link to="/" className="link">עמוד הבית</Link></li>
 
-        <div className="header-img-container">
-          <img src="https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/8/x841320005-11610034522.jpg" />
-          <div className="img-desc">נעליים</div>
-        </div>
-        <div className="header-img-container">
-          <img src="https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/3/z355685915-11654781369.jpg" />
-          <div className="img-desc">ג׳ינסים</div>
-        </div>
-      </header>
-      <main>
-        <img src="https://i.pinimg.com/736x/fa/a8/1c/faa81c8fd49f50ff42a944de835ba063--dsquared-logo-s.jpg" width="180" height="200"/>
-        <img src="https://play-lh.googleusercontent.com/fis-9rTH8zeCfMrHl-AQxY2wHP6ilz8pcOx_BiuMTKECK2Wz11u6Oui6poEAiVz3IlhB" width="200" height="200"/>
-        <img src="http://cdn.shopify.com/s/files/1/0249/5892/6941/products/Nike-Swoosh-Logo-Iron-On-White_1200x1200.jpg" width="280" height="200"/>
-        <img src="https://1000logos.net/wp-content/uploads/2019/05/Off-White-L%D0%BEgo.jpg" width="220" height="120"/>
+          
 
-
-
-
-      </main>
-      <section>
-          <h2>סניפים</h2>
-          <div className="location">
-              <img src="https://www.colbonews.co.il/wp-content/uploads/2019/11/8a1181fa5aa8bcb9c768706b77199a1c-e1573045514185.jpg"/>
-              <div className="location-desc">הרצל 31, בת ים</div>
-          </div>
-
-          <div className="location">
-              <img src="https://www.dpro.co.il/wp-content/uploads/2020/08/NYOU-%D7%A8%D7%9E%D7%9C%D7%94-6.jpg"/>
-              <div className="location-desc">הנרקיס 5, בת ים</div>
-          </div>
-
-          <div className="location">
-              <img src="https://www.dpro.co.il/wp-content/uploads/2020/08/NYOU-%D7%A8%D7%9E%D7%9C%D7%94-3.jpg"/>
-              <div className="location-desc">רבין 17, בת ים</div>
-          </div>
-      </section>
+        </ul>
     </div>
-  );
+    </>
+    
+  )
 }
 
 export default Home;
