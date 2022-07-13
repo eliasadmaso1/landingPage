@@ -41,7 +41,7 @@ function Home() {
         <li> <Link to="/menShoes" className="link">נעלי גברים</Link></li>
         <li> <Link to="/menShirts" className="link">חולצות גברים</Link></li>
         <li> <Link to="/womenShoes" className="link">נעלי נשים</Link></li>
-        <li> <Link to="/womenShirts" className="link">חולצות נשים</Link></li>
+        <li> <Link to="/womenPants" className="link">חולצות נשים</Link></li>
         <li> <Link to="/" className="link">נעלי ילדים</Link></li>
         <li> <Link to="/" className="link">הלבשה תחתונה</Link></li>
 

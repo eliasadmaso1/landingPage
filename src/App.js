@@ -11,9 +11,7 @@ import Home from "./components/pages/home/Home";
 import MenShirts from "./components/pages/mens/shirts/Shirts";
 import ImageSlider from "./components/features/imageSlider/ImageSlider";
 import { shirts, womenPants } from "./data/shirts";
-import Mens from "./components/pages/mens/page/Mens";
 import WomenShoes from "./components/pages/women/shoes/Shoes";
-import WomenShirts from "./components/pages/women/page/Women";
 import Pants from "./components/pages/women/pants/Pants";
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -26,11 +24,9 @@ function App() {
       <ContentSlider slides={sliderData} />
       <Routes>
         <Route exact path="/landingPage" element={<Home />} />
-        <Route path="/mens" element={<Mens />} />
         <Route path="/menShoes" element={<MenShoes />} />
         <Route path="menShirts" element={<MenShirts />} />
         <Route path="/womenShoes" element={<WomenShoes />} />
-        <Route path="/womenShirts" element={<WomenShirts />} />
         <Route path="/womenPants" element={<Pants />} />
 
 

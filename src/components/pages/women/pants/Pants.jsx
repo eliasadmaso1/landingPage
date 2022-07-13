@@ -1,10 +1,19 @@
 import React from 'react';
 import { womenPants } from '../../../../data/shirts';
 import Card from '../../../features/card/Card';
+import { Link } from "react-router-dom";
+import Footer from '../../../features/footer/Footer';
+
 
 
 function Pants() {
     return (
+      <>
+          <div className="link-container">
+    <Link to="/landingPage" className="back-link">
+        <div className="back-home">חזרה לבית</div>
+      </Link>
+    </div>
         <div className="shoes">
         {womenPants.map((shoe) => {
           return (
@@ -16,6 +25,8 @@ function Pants() {
           );
         })}
       </div>
+      <Footer/>
+      </>
     )
 }
 
