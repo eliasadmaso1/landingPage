@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/landingPage/static/css/main.8fb08cea.css",
-    "main.js": "/landingPage/static/js/main.93a6d403.js",
+    "main.css": "/landingPage/static/css/main.8ddb9829.css",
+    "main.js": "/landingPage/static/js/main.0492498b.js",
     "static/js/787.6606bfd5.chunk.js": "/landingPage/static/js/787.6606bfd5.chunk.js",
-    "static/media/backround.mp4": "/landingPage/static/media/backround.1db71fc60ae4cfba9cea.mp4",
+    "static/media/back2.jpg": "/landingPage/static/media/back2.937591e19b0e9f621530.jpg",
     "static/media/nike-blackgold.jpeg": "/landingPage/static/media/nike-blackgold.f1b19ebe9d71e6123884.jpeg",
     "static/media/offwhite-blackB.jpeg": "/landingPage/static/media/offwhite-blackB.b2c7de60dbdb85e9d176.jpeg",
     "static/media/replay-black.jpeg": "/landingPage/static/media/replay-black.33b82fc1e231a0d0f9f8.jpeg",
@@ -41,12 +41,12 @@
     "static/media/woman-nikepro.jpeg": "/landingPage/static/media/woman-nikepro.64cdbbacc9e1083edf00.jpeg",
     "static/media/woman-adidas.jpeg": "/landingPage/static/media/woman-adidas.364fa79e2c2f68631bbf.jpeg",
     "index.html": "/landingPage/index.html",
-    "main.8fb08cea.css.map": "/landingPage/static/css/main.8fb08cea.css.map",
-    "main.93a6d403.js.map": "/landingPage/static/js/main.93a6d403.js.map",
+    "main.8ddb9829.css.map": "/landingPage/static/css/main.8ddb9829.css.map",
+    "main.0492498b.js.map": "/landingPage/static/js/main.0492498b.js.map",
     "787.6606bfd5.chunk.js.map": "/landingPage/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fb08cea.css",
-    "static/js/main.93a6d403.js"
+    "static/css/main.8ddb9829.css",
+    "static/js/main.0492498b.js"
   ]
 }
